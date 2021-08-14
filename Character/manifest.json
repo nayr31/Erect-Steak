@@ -1,0 +1,21 @@
+{
+    "guid": "h3vr.tnhtweaker.roborizorake",
+    "version": "1.0.2",
+    "require": "0.4.1",
+    "dependencies": {
+        "h3vr.tnhtweaker.deli": "1.6.8"
+      },
+    "name": "Robo-Rizo Rake",
+    "description": "Junkbots ahoy.",
+    "source_url": "",
+    "authors": [
+        "gamernayr"
+    ],
+      "assets": {
+        "patcher": {},
+        "setup": {
+          "Robo-rizo Rake/*sosig*.json": "h3vr.tnhtweaker.deli:sosig",
+          "Robo-rizo Rake/": "h3vr.tnhtweaker.deli:character"
+        }
+    }
+  }
