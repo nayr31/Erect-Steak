@@ -1,21 +1,19 @@
 {
-    "guid": "h3vr.tnhtweaker.roborizorake",
+    "guid": "h3vr.tnhtweaker.erectsteak",
     "version": "1.0.2",
     "require": "0.4.1",
     "dependencies": {
         "h3vr.tnhtweaker.deli": "1.6.8"
       },
-    "name": "Robo-Rizo Rake",
-    "description": "Junkbots ahoy.",
+    "name": "Erect Steak",
+    "description": "A pooled variant of Flaccid Steak.",
     "source_url": "",
     "authors": [
         "gamernayr"
     ],
       "assets": {
-        "patcher": {},
         "setup": {
-          "Robo-rizo Rake/*sosig*.json": "h3vr.tnhtweaker.deli:sosig",
-          "Robo-rizo Rake/": "h3vr.tnhtweaker.deli:character"
+          "Erect Steak/": "h3vr.tnhtweaker.deli:character"
         }
     }
   }

@@ -1,0 +1,1861 @@
+{
+  "DisplayName": "Erect Steak",
+  "Description": "Uses Special Progression\nOn Site Procurement\nMeaty Espionage Action\nPooled weapons",
+  "CharacterGroup": 2,
+  "TableID": "GMR_ES1",
+  "StartingTokens": 3,
+  "ForceAllAgentWeapons": true,
+  "ForceDisableOutfitFunctionality": false,
+  "UsesPurchasePriceIncrement": true,
+  "HasPrimaryWeapon": false,
+  "HasSecondaryWeapon": false,
+  "HasTertiaryWeapon": false,
+  "HasPrimaryItem": true,
+  "HasSecondaryItem": true,
+  "HasTertiaryItem": false,
+  "HasShield": false,
+  "ValidAmmoEras": [
+    "Colonial",
+    "WildWest",
+    "TurnOfTheCentury",
+    "WW1",
+    "WW2",
+    "PostWar",
+    "Modern",
+    "Futuristic",
+    "Medieval"
+  ],
+  "ValidAmmoSets": [
+    "Real",
+    "MF",
+    "GroundedFictional",
+    "SciFiFictional"
+  ],
+  "GlobalAmmoBlacklist": [],
+  "MagazineBlacklist": [],
+  "RequireSightTable": {
+    "Category": "Attachment",
+    "Rarity": 1.0,
+    "RequiredQuest": null,
+    "ItemsToSpawn": 1,
+    "MinAmmoCapacity": -1,
+    "MaxAmmoCapacity": -1,
+    "NumMagsSpawned": 3,
+    "NumClipsSpawned": 3,
+    "NumRoundsSpawned": 8,
+    "SpawnMagAndClip": false,
+    "BespokeAttachmentChance": 0.5,
+    "IsCompatibleMagazine": false,
+    "AutoPopulateGroup": true,
+    "ForceSpawnAllSubPools": false,
+    "IDOverride": [],
+    "Eras": [],
+    "Sets": [
+      "Real"
+    ],
+    "Sizes": [],
+    "Actions": [],
+    "Modes": [],
+    "ExcludedModes": [],
+    "FeedOptions": [],
+    "MountsAvailable": [],
+    "RoundPowers": [],
+    "Features": [
+      "Reflex"
+    ],
+    "MeleeStyles": [],
+    "MeleeHandedness": [],
+    "MountTypes": [
+      "Picatinny"
+    ],
+    "PowerupTypes": [],
+    "ThrownTypes": [],
+    "ThrownDamageTypes": [],
+    "SubGroups": null
+  },
+  "PrimaryWeapon": {
+    "PrimaryGroup": null,
+    "BackupGroup": null
+  },
+  "SecondaryWeapon": {
+    "PrimaryGroup": null,
+    "BackupGroup": null
+  },
+  "TertiaryWeapon": {
+    "PrimaryGroup": null,
+    "BackupGroup": null
+  },
+  "PrimaryItem": {
+    "PrimaryGroup": {
+      "Category": "Firearm",
+      "Rarity": 1.0,
+      "RequiredQuest": null,
+      "ItemsToSpawn": 1,
+      "MinAmmoCapacity": -1,
+      "MaxAmmoCapacity": 9999,
+      "NumMagsSpawned": 0,
+      "NumClipsSpawned": 0,
+      "NumRoundsSpawned": 0,
+      "SpawnMagAndClip": false,
+      "BespokeAttachmentChance": 0.0,
+      "IsCompatibleMagazine": false,
+      "AutoPopulateGroup": false,
+      "ForceSpawnAllSubPools": false,
+      "IDOverride": [
+        "Rangefinder7x25",
+        "rangefinder"
+      ],
+      "Eras": [],
+      "Sets": [],
+      "Sizes": [],
+      "Actions": [],
+      "Modes": [],
+      "ExcludedModes": [],
+      "FeedOptions": [],
+      "MountsAvailable": [],
+      "RoundPowers": [],
+      "Features": [],
+      "MeleeStyles": [],
+      "MeleeHandedness": [],
+      "MountTypes": [],
+      "PowerupTypes": null,
+      "ThrownTypes": [],
+      "ThrownDamageTypes": [],
+      "SubGroups": []
+    },
+    "BackupGroup": null
+  },
+  "SecondaryItem": {
+    "PrimaryGroup": {
+      "Category": "Firearm",
+      "Rarity": 1.0,
+      "RequiredQuest": null,
+      "ItemsToSpawn": 1,
+      "MinAmmoCapacity": -1,
+      "MaxAmmoCapacity": 9999,
+      "NumMagsSpawned": 0,
+      "NumClipsSpawned": 0,
+      "NumRoundsSpawned": 0,
+      "SpawnMagAndClip": false,
+      "BespokeAttachmentChance": 0.0,
+      "IsCompatibleMagazine": false,
+      "AutoPopulateGroup": false,
+      "ForceSpawnAllSubPools": false,
+      "IDOverride": [
+        "DingPack"
+      ],
+      "Eras": [],
+      "Sets": [],
+      "Sizes": [],
+      "Actions": [],
+      "Modes": [],
+      "ExcludedModes": [],
+      "FeedOptions": [],
+      "MountsAvailable": [],
+      "RoundPowers": [],
+      "Features": [],
+      "MeleeStyles": [],
+      "MeleeHandedness": [],
+      "MountTypes": [],
+      "PowerupTypes": null,
+      "ThrownTypes": [],
+      "ThrownDamageTypes": [],
+      "SubGroups": []
+    },
+    "BackupGroup": null
+  },
+  "TertiaryItem": {
+    "PrimaryGroup": {
+      "Category": "Firearm",
+      "Rarity": 1.0,
+      "RequiredQuest": null,
+      "ItemsToSpawn": 1,
+      "MinAmmoCapacity": -1,
+      "MaxAmmoCapacity": -1,
+      "NumMagsSpawned": 3,
+      "NumClipsSpawned": 3,
+      "NumRoundsSpawned": 8,
+      "SpawnMagAndClip": false,
+      "BespokeAttachmentChance": 0.5,
+      "IsCompatibleMagazine": false,
+      "AutoPopulateGroup": false,
+      "ForceSpawnAllSubPools": false,
+      "IDOverride": [
+        "TacticalCardboardBox"
+      ],
+      "Eras": [],
+      "Sets": [],
+      "Sizes": [],
+      "Actions": [],
+      "Modes": [],
+      "ExcludedModes": [],
+      "FeedOptions": [],
+      "MountsAvailable": [],
+      "RoundPowers": [],
+      "Features": [],
+      "MeleeStyles": [],
+      "MeleeHandedness": [],
+      "MountTypes": [],
+      "PowerupTypes": [],
+      "ThrownTypes": [],
+      "ThrownDamageTypes": [],
+      "SubGroups": null
+    },
+    "BackupGroup": null
+  },
+  "Shield": {
+    "PrimaryGroup": null,
+    "BackupGroup": null
+  },
+  "EquipmentPools": [
+    {
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_pistols",
+      "TokenCost": 2,
+      "TokenCostLimited": 2,
+      "MinLevelAppears": 0,
+      "MaxLevelAppears": 2,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 10.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [
+          "Futuristic",
+          "Modern",
+          "PostWar"
+        ],
+        "Sets": [],
+        "Sizes": [
+          "Pistol"
+        ],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [
+          "FullAuto"
+        ],
+        "FeedOptions": [
+          "BoxMag"
+        ],
+        "MountsAvailable": [],
+        "RoundPowers": [
+          "Pistol"
+        ],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_assault_rifle",
+      "TokenCost": 3,
+      "TokenCostLimited": 3,
+      "MinLevelAppears": 1,
+      "MaxLevelAppears": 3,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 10.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [
+          "Futuristic",
+          "Modern",
+          "PostWar"
+        ],
+        "Sets": [],
+        "Sizes": [
+          "Compact",
+          "Carbine",
+          "FullSize"
+        ],
+        "Actions": [
+          "Automatic"
+        ],
+        "Modes": [
+          "Burst",
+          "FullAuto"
+        ],
+        "ExcludedModes": [],
+        "FeedOptions": [
+          "BoxMag"
+        ],
+        "MountsAvailable": [],
+        "RoundPowers": [
+          "Intermediate"
+        ],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_bolt_action",
+      "TokenCost": 3,
+      "TokenCostLimited": 3,
+      "MinLevelAppears": 2,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 10.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [
+          "Modern",
+          "PostWar"
+        ],
+        "Sets": [],
+        "Sizes": [
+          "Carbine",
+          "FullSize"
+        ],
+        "Actions": [
+          "Automatic"
+        ],
+        "Modes": [
+          "SemiAuto",
+          "FullAuto"
+        ],
+        "ExcludedModes": [],
+        "FeedOptions": [
+          "BoxMag"
+        ],
+        "MountsAvailable": [],
+        "RoundPowers": [
+          "FullPower"
+        ],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_support_weapons",
+      "TokenCost": 4,
+      "TokenCostLimited": 1,
+      "MinLevelAppears": 3,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 10.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+          "RemoteMissileLauncher"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Firearm",
+      "IconName": "TNH_Icon_stinger",
+      "TokenCost": 3,
+      "TokenCostLimited": 1,
+      "MinLevelAppears": 4,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 10.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [
+          "PostWar",
+          "Modern",
+          "Futuristic"
+        ],
+        "Sets": [],
+        "Sizes": [
+          "Bulky",
+          "Oversize",
+          "FullSize"
+        ],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [
+          "Ordnance"
+        ],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Equipment",
+      "IconName": "TNH_Icon_utility_grenade",
+      "TokenCost": 2,
+      "TokenCostLimited": 1,
+      "MinLevelAppears": 0,
+      "MaxLevelAppears": 2,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 5.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [
+          "Pinned"
+        ],
+        "ThrownDamageTypes": [
+          "Utility"
+        ],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Equipment",
+      "IconName": "TNH_Icon_grenade",
+      "TokenCost": 2,
+      "TokenCostLimited": 1,
+      "MinLevelAppears": 1,
+      "MaxLevelAppears": 3,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 5.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [
+          "Pinned"
+        ],
+        "ThrownDamageTypes": [
+          "Explosive"
+        ],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Equipment",
+      "IconName": "TNH_Icon_claymore",
+      "TokenCost": 3,
+      "TokenCostLimited": 1,
+      "MinLevelAppears": 2,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 5.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+          "LaserActivatedClaymoreMine"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Equipment",
+      "IconName": "TNH_Icon_c4",
+      "TokenCost": 4,
+      "TokenCostLimited": 1,
+      "MinLevelAppears": 3,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 5.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+          "C4"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Equipment",
+      "IconName": "TNH_Icon_suppressors",
+      "TokenCost": 4,
+      "TokenCostLimited": 4,
+      "MinLevelAppears": 0,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Attachment",
+        "Rarity": 5.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [
+          "Futuristic",
+          "Modern",
+          "PostWar"
+        ],
+        "Sets": [
+          "Real"
+        ],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [
+          "Suppression"
+        ],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [
+          "Muzzle"
+        ],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Consumable",
+      "IconName": "TNH_Icon_weiner_health",
+      "TokenCost": 5,
+      "TokenCostLimited": 5,
+      "MinLevelAppears": 0,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Powerup",
+        "Rarity": 6.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [
+          "Health"
+        ],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Consumable",
+      "IconName": "TNH_Icon_weiner_shield",
+      "TokenCost": 3,
+      "TokenCostLimited": 3,
+      "MinLevelAppears": 0,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Powerup",
+        "Rarity": 6.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [
+          "Invincibility",
+          "GhostMode"
+        ],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Consumable",
+      "IconName": "TNH_Icon_weiner_ammo",
+      "TokenCost": 2,
+      "TokenCostLimited": 2,
+      "MinLevelAppears": 0,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Powerup",
+        "Rarity": 6.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": true,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [
+          "QuadDamage",
+          "InfiniteAmmo"
+        ],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    },
+    {
+      "Type": "Storage",
+      "IconName": "TNH_Icon_tacticalcardboardbox",
+      "TokenCost": 2,
+      "TokenCostLimited": 2,
+      "MinLevelAppears": 0,
+      "MaxLevelAppears": 99,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 6.0,
+        "RequiredQuest": null,
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": -1,
+        "MaxAmmoCapacity": -1,
+        "NumMagsSpawned": 3,
+        "NumClipsSpawned": 3,
+        "NumRoundsSpawned": 8,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+          "TacticalCardboardBox"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": null
+      },
+      "BackupGroup": null
+    }
+  ],
+  "Levels": [
+    {
+      "NumOverrideTokensForHold": 3,
+      "MinSupplyPoints": 1,
+      "MaxSupplyPoints": 1,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 4,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 1,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "AmmoReloader",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "MG_Soldier_Artic_Rifle",
+        "NumTurrets": 0,
+        "NumGuards": 2,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Static"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 3,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "MG_Soldier_Artic_Rifle"
+          ],
+          "LeaderType": "MG_Soldier_Artic_Rifle",
+          "MinEnemies": 2,
+          "MaxEnemies": 2,
+          "MaxEnemiesAlive": 4,
+          "MaxDirections": 1,
+          "SpawnCadence": 20.0,
+          "ScanTime": 30.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Static"
+          ],
+          "MinTargets": 6,
+          "MaxTargets": 6,
+          "MinTargetsLimited": 3,
+          "MaxTargetsLimited": 3,
+          "EnemyType": [
+            "MG_Special_Duelist"
+          ],
+          "LeaderType": "MG_Special_Duelist",
+          "MinEnemies": 1,
+          "MaxEnemies": 1,
+          "MaxEnemiesAlive": 1,
+          "MaxDirections": 1,
+          "SpawnCadence": 30.0,
+          "ScanTime": 60.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "MG_Soldier_Artic_Rifle",
+        "NumTurrets": 0,
+        "NumGuards": 2,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "MG_Soldier_Artic_Rifle"
+          ],
+          "LeaderType": "MG_Soldier_Artic_Rifle",
+          "PatrolSize": 2,
+          "MaxPatrols": 3,
+          "MaxPatrolsLimited": 2,
+          "PatrolCadence": 90.0,
+          "PatrolCadenceLimited": 90.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+    {
+      "NumOverrideTokensForHold": 3,
+      "MinSupplyPoints": 2,
+      "MaxSupplyPoints": 2,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 4,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 1,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "AmmoReloader",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "MG_Soldier_LInfantry_Rifle",
+        "NumTurrets": 0,
+        "NumGuards": 3,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Stealth"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 3,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "MG_Soldier_LInfantry_Rifle"
+          ],
+          "LeaderType": "MG_Soldier_LInfantry_Shotgun",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 5,
+          "MaxDirections": 2,
+          "SpawnCadence": 20.0,
+          "ScanTime": 30.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Stealth"
+          ],
+          "MinTargets": 4,
+          "MaxTargets": 4,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "MG_Special_Ninja"
+          ],
+          "LeaderType": "MG_Special_Ninja",
+          "MinEnemies": 1,
+          "MaxEnemies": 1,
+          "MaxEnemiesAlive": 1,
+          "MaxDirections": 1,
+          "SpawnCadence": 30.0,
+          "ScanTime": 60.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "MG_Soldier_LInfantry_Rifle",
+        "NumTurrets": 0,
+        "NumGuards": 3,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "MG_Soldier_LInfantry_Rifle"
+          ],
+          "LeaderType": "MG_Soldier_LInfantry_Shotgun",
+          "PatrolSize": 2,
+          "MaxPatrols": 3,
+          "MaxPatrolsLimited": 2,
+          "PatrolCadence": 90.0,
+          "PatrolCadenceLimited": 90.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+    {
+      "NumOverrideTokensForHold": 3,
+      "MinSupplyPoints": 3,
+      "MaxSupplyPoints": 3,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 4,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 1,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "AmmoReloader",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "MG_Soldier_Chemwar_Rifle",
+        "NumTurrets": 0,
+        "NumGuards": 4,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Agile"
+          ],
+          "MinTargets": 2,
+          "MaxTargets": 2,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "MG_Soldier_Chemwar_Rifle"
+          ],
+          "LeaderType": "MG_Soldier_Chemwar_Rifle",
+          "MinEnemies": 4,
+          "MaxEnemies": 4,
+          "MaxEnemiesAlive": 4,
+          "MaxDirections": 2,
+          "SpawnCadence": 20.0,
+          "ScanTime": 20.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Agile"
+          ],
+          "MinTargets": 5,
+          "MaxTargets": 5,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "MG_Special_Telekine"
+          ],
+          "LeaderType": "MG_Special_Telekine",
+          "MinEnemies": 1,
+          "MaxEnemies": 1,
+          "MaxEnemiesAlive": 1,
+          "MaxDirections": 1,
+          "SpawnCadence": 30.0,
+          "ScanTime": 60.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "MG_Soldier_Chemwar_Rifle",
+        "NumTurrets": 0,
+        "NumGuards": 4,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "MG_Soldier_Chemwar_Rifle"
+          ],
+          "LeaderType": "MG_Soldier_Chemwar_Rifle",
+          "PatrolSize": 3,
+          "MaxPatrols": 3,
+          "MaxPatrolsLimited": 2,
+          "PatrolCadence": 70.0,
+          "PatrolCadenceLimited": 90.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+    {
+      "NumOverrideTokensForHold": 3,
+      "MinSupplyPoints": 3,
+      "MaxSupplyPoints": 3,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 4,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 1,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "AmmoReloader",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "MG_Soldier_LInfantry_Rifle",
+        "NumTurrets": 0,
+        "NumGuards": 6,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Recursive"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 3,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "MG_Soldier_LInfantry_Rifle"
+          ],
+          "LeaderType": "MG_Soldier_LInfantry_Shotgun",
+          "MinEnemies": 4,
+          "MaxEnemies": 4,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 2,
+          "SpawnCadence": 20.0,
+          "ScanTime": 20.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Recursive"
+          ],
+          "MinTargets": 5,
+          "MaxTargets": 5,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "MG_Special_Sniper"
+          ],
+          "LeaderType": "MG_Special_Sniper",
+          "MinEnemies": 1,
+          "MaxEnemies": 1,
+          "MaxEnemiesAlive": 1,
+          "MaxDirections": 1,
+          "SpawnCadence": 30.0,
+          "ScanTime": 60.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "MG_Soldier_LInfantry_Rifle",
+        "NumTurrets": 0,
+        "NumGuards": 6,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "MG_Soldier_LInfantry_Rifle"
+          ],
+          "LeaderType": "MG_Soldier_LInfantry_Shotgun",
+          "PatrolSize": 3,
+          "MaxPatrols": 3,
+          "MaxPatrolsLimited": 2,
+          "PatrolCadence": 60.0,
+          "PatrolCadenceLimited": 90.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+    {
+      "NumOverrideTokensForHold": 3,
+      "MinSupplyPoints": 3,
+      "MaxSupplyPoints": 3,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 4,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 1,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "AmmoReloader",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "MG_Soldier_Heavy_Rifle",
+        "NumTurrets": 0,
+        "NumGuards": 8,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Hardened"
+          ],
+          "MinTargets": 5,
+          "MaxTargets": 5,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "MG_Soldier_Heavy_Rifle"
+          ],
+          "LeaderType": "MG_Soldier_Heavy_Shield",
+          "MinEnemies": 5,
+          "MaxEnemies": 5,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 20.0,
+          "ScanTime": 20.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Hardened"
+          ],
+          "MinTargets": 10,
+          "MaxTargets": 10,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "MG_Special_Support"
+          ],
+          "LeaderType": "MG_Special_Support",
+          "MinEnemies": 1,
+          "MaxEnemies": 1,
+          "MaxEnemiesAlive": 1,
+          "MaxDirections": 1,
+          "SpawnCadence": 30.0,
+          "ScanTime": 60.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "MG_Soldier_Heavy_Rifle",
+        "NumTurrets": 0,
+        "NumGuards": 8,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "MG_Soldier_Heavy_Rifle"
+          ],
+          "LeaderType": "MG_Soldier_Heavy_Shield",
+          "PatrolSize": 3,
+          "MaxPatrols": 4,
+          "MaxPatrolsLimited": 2,
+          "PatrolCadence": 45.0,
+          "PatrolCadenceLimited": 90.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+    {
+      "NumOverrideTokensForHold": 3,
+      "MinSupplyPoints": 3,
+      "MaxSupplyPoints": 3,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 4,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 1,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "AmmoReloader",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "MG_Soldier_Heavy_Rifle",
+        "NumTurrets": 0,
+        "NumGuards": 10,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Swarm"
+          ],
+          "MinTargets": 5,
+          "MaxTargets": 5,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "MG_Soldier_Heavy_Rifle"
+          ],
+          "LeaderType": "MG_Soldier_Heavy_Shield",
+          "MinEnemies": 6,
+          "MaxEnemies": 6,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 20.0,
+          "ScanTime": 20.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Swarm"
+          ],
+          "MinTargets": 10,
+          "MaxTargets": 10,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "MG_Special_Boss"
+          ],
+          "LeaderType": "MG_Special_Boss",
+          "MinEnemies": 1,
+          "MaxEnemies": 1,
+          "MaxEnemiesAlive": 1,
+          "MaxDirections": 1,
+          "SpawnCadence": 30.0,
+          "ScanTime": 60.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "MG_Soldier_Heavy_Rifle",
+        "NumTurrets": 0,
+        "NumGuards": 10,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "MG_Soldier_Heavy_Rifle"
+          ],
+          "LeaderType": "MG_Soldier_Heavy_Shield",
+          "PatrolSize": 3,
+          "MaxPatrols": 4,
+          "MaxPatrolsLimited": 2,
+          "PatrolCadence": 45.0,
+          "PatrolCadenceLimited": 90.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    }
+  ],
+  "LevelsEndless": [
+    {
+      "NumOverrideTokensForHold": 2,
+      "MinSupplyPoints": 1,
+      "MaxSupplyPoints": 1,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 4,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 1,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "AmmoReloader",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "MG_Soldier_LInfantry_Rifle",
+        "NumTurrets": 0,
+        "NumGuards": 6,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Recursive"
+          ],
+          "MinTargets": 3,
+          "MaxTargets": 3,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "MG_Soldier_LInfantry_Rifle"
+          ],
+          "LeaderType": "MG_Soldier_LInfantry_Shotgun",
+          "MinEnemies": 4,
+          "MaxEnemies": 4,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 2,
+          "SpawnCadence": 20.0,
+          "ScanTime": 20.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Recursive"
+          ],
+          "MinTargets": 5,
+          "MaxTargets": 5,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "MG_Special_Sniper"
+          ],
+          "LeaderType": "MG_Special_Sniper",
+          "MinEnemies": 1,
+          "MaxEnemies": 1,
+          "MaxEnemiesAlive": 1,
+          "MaxDirections": 1,
+          "SpawnCadence": 30.0,
+          "ScanTime": 60.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "MG_Soldier_LInfantry_Rifle",
+        "NumTurrets": 0,
+        "NumGuards": 6,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "MG_Soldier_LInfantry_Rifle"
+          ],
+          "LeaderType": "MG_Soldier_LInfantry_Shotgun",
+          "PatrolSize": 3,
+          "MaxPatrols": 3,
+          "MaxPatrolsLimited": 2,
+          "PatrolCadence": 60.0,
+          "PatrolCadenceLimited": 90.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+    {
+      "NumOverrideTokensForHold": 2,
+      "MinSupplyPoints": 2,
+      "MaxSupplyPoints": 2,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 4,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 1,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "AmmoReloader",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "MG_Soldier_Heavy_Rifle",
+        "NumTurrets": 0,
+        "NumGuards": 8,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Hardened"
+          ],
+          "MinTargets": 5,
+          "MaxTargets": 5,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "MG_Soldier_Heavy_Rifle"
+          ],
+          "LeaderType": "MG_Soldier_Heavy_Shield",
+          "MinEnemies": 5,
+          "MaxEnemies": 5,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 20.0,
+          "ScanTime": 20.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Hardened"
+          ],
+          "MinTargets": 10,
+          "MaxTargets": 10,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "MG_Special_Support"
+          ],
+          "LeaderType": "MG_Special_Support",
+          "MinEnemies": 1,
+          "MaxEnemies": 1,
+          "MaxEnemiesAlive": 1,
+          "MaxDirections": 1,
+          "SpawnCadence": 30.0,
+          "ScanTime": 60.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "MG_Soldier_Heavy_Rifle",
+        "NumTurrets": 0,
+        "NumGuards": 8,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "MG_Soldier_Heavy_Rifle"
+          ],
+          "LeaderType": "MG_Soldier_Heavy_Shield",
+          "PatrolSize": 3,
+          "MaxPatrols": 4,
+          "MaxPatrolsLimited": 2,
+          "PatrolCadence": 45.0,
+          "PatrolCadenceLimited": 90.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    },
+    {
+      "NumOverrideTokensForHold": 2,
+      "MinSupplyPoints": 3,
+      "MaxSupplyPoints": 3,
+      "MinConstructors": 1,
+      "MaxConstructors": 1,
+      "MinPanels": 1,
+      "MaxPanels": 1,
+      "MinBoxesSpawned": 2,
+      "MaxBoxesSpawned": 4,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 1,
+      "BoxTokenChance": 0.0,
+      "BoxHealthChance": 0.5,
+      "PossiblePanelTypes": [
+        "AmmoReloader",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "MG_Soldier_Heavy_Rifle",
+        "NumTurrets": 0,
+        "NumGuards": 10,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Swarm"
+          ],
+          "MinTargets": 5,
+          "MaxTargets": 5,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "MG_Soldier_Heavy_Rifle"
+          ],
+          "LeaderType": "MG_Soldier_Heavy_Shield",
+          "MinEnemies": 6,
+          "MaxEnemies": 6,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 20.0,
+          "ScanTime": 20.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Swarm"
+          ],
+          "MinTargets": 10,
+          "MaxTargets": 10,
+          "MinTargetsLimited": 1,
+          "MaxTargetsLimited": 1,
+          "EnemyType": [
+            "MG_Special_Boss"
+          ],
+          "LeaderType": "MG_Special_Boss",
+          "MinEnemies": 1,
+          "MaxEnemies": 1,
+          "MaxEnemiesAlive": 1,
+          "MaxDirections": 1,
+          "SpawnCadence": 30.0,
+          "ScanTime": 60.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 1,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "Sosiggrenade_Flash",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "MG_Soldier_Heavy_Rifle",
+        "NumTurrets": 0,
+        "NumGuards": 10,
+        "IFFUsed": 1
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "MG_Soldier_Heavy_Rifle"
+          ],
+          "LeaderType": "MG_Soldier_Heavy_Shield",
+          "PatrolSize": 3,
+          "MaxPatrols": 4,
+          "MaxPatrolsLimited": 2,
+          "PatrolCadence": 45.0,
+          "PatrolCadenceLimited": 90.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    }
+  ]
+}
