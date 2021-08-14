@@ -3,7 +3,7 @@
   "Description": "Uses Special Progression\nOn Site Procurement\nMeaty Espionage Action\nPooled weapons",
   "CharacterGroup": 2,
   "TableID": "GMR_ES1",
-  "StartingTokens": 3,
+  "StartingTokens": 2,
   "ForceAllAgentWeapons": true,
   "ForceDisableOutfitFunctionality": false,
   "UsesPurchasePriceIncrement": true,
@@ -12,7 +12,7 @@
   "HasTertiaryWeapon": false,
   "HasPrimaryItem": true,
   "HasSecondaryItem": true,
-  "HasTertiaryItem": false,
+  "HasTertiaryItem": true,
   "HasShield": false,
   "ValidAmmoEras": [
     "Colonial",
@@ -684,8 +684,8 @@
     {
       "Type": "Equipment",
       "IconName": "TNH_Icon_suppressors",
-      "TokenCost": 4,
-      "TokenCostLimited": 4,
+      "TokenCost": 2,
+      "TokenCostLimited": 2,
       "MinLevelAppears": 0,
       "MaxLevelAppears": 99,
       "SpawnsInSmallCase": false,
