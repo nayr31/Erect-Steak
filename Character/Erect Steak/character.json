@@ -172,7 +172,7 @@
       "ItemsToSpawn": 1,
       "MinAmmoCapacity": -1,
       "MaxAmmoCapacity": -1,
-      "NumMagsSpawned": 3,
+      "NumMagsSpawned": 1,
       "NumClipsSpawned": 3,
       "NumRoundsSpawned": 8,
       "SpawnMagAndClip": false,
@@ -181,7 +181,8 @@
       "AutoPopulateGroup": false,
       "ForceSpawnAllSubPools": false,
       "IDOverride": [
-        "TacticalCardboardBox"
+        "DecoyMag",
+        "CombatKnife"
       ],
       "Eras": [],
       "Sets": [],
@@ -944,8 +945,7 @@
       "BoxHealthChance": 0.5,
       "PossiblePanelTypes": [
         "AmmoReloader",
-        "MagDuplicator",
-        "Recycler"
+        "MagDuplicator"
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
