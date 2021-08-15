@@ -4,15 +4,29 @@ The name of this project is a joke that relates to the H3VR (a game about shooti
 
 The changes this character brings:
 
-- Start with a decoy mag (stealth) or a knife (lethal)
-- All static guns and grenades are now pools related to what they were before
-- Stinger has been changed to a general rocket launcher pool with reduced cost (3 instead of 4, like the controllable launcher)
+- Start with a decoy mag (stealth) or a knife (lethal).
+- All static guns and grenades are now pools related to what they were before.
+- Stinger has been changed to a general rocket launcher pool with reduced cost (3 instead of 4, like the controllable launcher).
+- Reduced starting points (3 -> 2)
+
+## More Information
+
+The idea of this character is to only tweak the values, to add more playability.
+
+Starting equipment changes:
+
+- Spawn with a decoy mag or combat knife
+  - `DecoyMag` is a custom item that is included within the mod, that can only spawn at the start of the round. It has enhanced thrown properties, making it ideal for distracting sosigs.
+  - These starting items were to fix the sometimes annoying starting rounds, while also including some role-play elements
+- Inclusion of [cityrobo's RangeFinder mod](https://h3vr.thunderstore.io/package/cityrobo/RangeFinder/) in the rangefinder pool.
+  - This means that the vanilla rangefinder can instead spawn as the modded one. Preferably, I would want this modded rangefinder to always spawn, but I know some people would want the vanilla one, so Im leaving it up to chance to be fair.
+- The stinger sucks in most environments, giving other launchers a fair chance.
 
 ## Changelog
 
 ### 1.0.4
 
-Fixed decoy mag spawning with revolvers
+Fixed decoy mag spawning with guns that didn't have magazines (magazine type was set to `M_None`, seems like those guns use them).
 
 ### 1.0.3
 
@@ -25,7 +39,8 @@ Fixed decoy mag spawning with revolvers
 ### 1.0.2
 
 - Box now spawns with starting equipment.
-- Reduced starting points by 1.
+- Reduced starting points by 1 (3 -> 2).
+- Added compatibility with [cityrobo's RangeFinder mod](https://h3vr.thunderstore.io/package/cityrobo/RangeFinder/).
 
 ### 1.0.1
 
