@@ -306,8 +306,8 @@
           "Automatic"
         ],
         "Modes": [
-          "Burst",
-          "FullAuto"
+          "FullAuto",
+          "SemiAuto"
         ],
         "ExcludedModes": [],
         "FeedOptions": [
@@ -330,7 +330,7 @@
     },
     {
       "Type": "Firearm",
-      "IconName": "TNH_Icon_bolt_action",
+      "IconName": "TNH_Icon_battle_rifle",
       "TokenCost": 3,
       "TokenCostLimited": 3,
       "MinLevelAppears": 2,
@@ -465,7 +465,11 @@
           "Modern",
           "Futuristic"
         ],
-        "Sets": [],
+        "Sets": [
+          "Real",
+          "SciFiFictional",
+          "GroundedFictional"
+        ],
         "Sizes": [
           "Bulky",
           "Oversize",
@@ -935,8 +939,8 @@
       "MaxSupplyPoints": 1,
       "MinConstructors": 1,
       "MaxConstructors": 1,
-      "MinPanels": 1,
-      "MaxPanels": 1,
+      "MinPanels": 2,
+      "MaxPanels": 2,
       "MinBoxesSpawned": 2,
       "MaxBoxesSpawned": 4,
       "MinTokensPerSupply": 1,

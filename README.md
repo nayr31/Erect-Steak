@@ -22,7 +22,21 @@ Starting equipment changes:
   - This means that the vanilla rangefinder can instead spawn as the modded one. Preferably, I would want this modded rangefinder to always spawn, but I know some people would want the vanilla one, so Im leaving it up to chance to be fair.
 - The stinger sucks in most environments, giving other launchers a fair chance.
 
+Small QOL improvements:
+
+- Extra panel spawn on first take phase
+  - This will ensure options for either the mag upgrader/buyer, or the ammo panel
+- Removed recycler from first take phase
+- Changed the icon for the battle rifles section to the battle rifle icon and not the bolt-action rifle icon
+
 ## Changelog
+
+### 1.0.5
+
+- Changed assault rifle pool generation parameters (should stop only 3 guns from spawning).
+- Changed ordinance (stinger) pool to exclude Meat Fortress weapons.
+- Changed bolt action icon to be the battle rifle icon, since it makes more sense.
+- Added 1 more panel to spawn in the first take phase (1 -> 2). 
 
 ### 1.0.4
 
